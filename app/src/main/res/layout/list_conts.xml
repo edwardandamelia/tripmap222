@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#ffffff"
+    app:cardElevation="5dp"
+    app:contentPadding="10dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/mainly"
+    android:layout_margin="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/conts_ly"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        >
+
+        <ImageView
+            android:id="@+id/imgsrc"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY" />
+
+
+
+        <TextView
+            android:id="@+id/conts_str"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgsrc"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:background="@drawable/btbg222"
+            android:layout_below="@+id/conts_str"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:id="@+id/cte20_bt"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".conts.ContsImageActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/imagepagerbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black" />
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/indicator"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        app:tabBackground="@drawable/tab_selector2"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        />
+
+    <ImageView
+        android:id="@+id/closebt"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/closebt" />
+
+</RelativeLayout>

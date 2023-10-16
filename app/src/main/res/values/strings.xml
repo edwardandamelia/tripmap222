@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TripReview</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY" translatable="false">TjWRLAqbgfyJNrjwi42HqSs3v</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET" translatable="false">LzrVPQdV6Fn1JDm5LBcVNuuRqOW56DmSfjzlfmZ6lNsQ7bsUO1</string>
+
+    <string name="subscription_terms">Subscriptions are recurring. You will be automatically be billed through your Google Play Store Account, Your subscription will auto-renew unless you cancel. You can manage your subscription in the settings in the Google Play Store</string>
+    <string name="subscription_offers">Unlock full access to all the features on Tripreview with our exclusive subscription. Offering an entire year of unlimited service for just $1, this subscription ensures you get the most out of our platform. Please explore the details and take advantage of this incredible value.</string>
+    <string name="subscription_offers2">Unlock all the services on Tripreview by redeeming your points. Enjoy seamless access to everything we have to offer, all with the convenience of using your earned points.</string>
+    <string name="feed">FEED</string>
+
+    <string name="points_explanation">We are excited to introduce a point system that allows you to earn points by interacting with our community. Here\'s how you can earn points:\n\n1. Follow Other Users: +1 Point\n\nBy following other users, you can stay connected with like-minded people, discover new content, and earn 1 point for each new user you follow!\n\n2. Post Content: +5 Points\n\nSharing your thoughts, travels? Each time you post content on our platform, you\'ll earn 5 points. We value your contributions, and these points reflect our appreciation for your active participation.</string>
+    <string name="DESTINATION">DESTINATION</string>
+    <string name="TRAVELVR">TRAVEL VR</string>
+    <string name="PostTravel">Post Travel</string>
+    <string name="PostPanoramic">Post Panoramic</string>
+    <string name="facebook_app_id" translatable="false">1185919775600131</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1185919775600131</string>
+    <string name="facebook_client_token" translatable="false">be8dcdbd85ac1b452f50133cacb9dd6b</string>
+
+
+</resources>

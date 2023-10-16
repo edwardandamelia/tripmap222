@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center_horizontal"
+    >
+        <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+            android:id="@+id/mainly"
+            >
+
+            <ImageView
+                android:id="@+id/shopimgbox"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                />
+
+            <TextView
+                android:id="@+id/area1textbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_toRightOf="@id/shopimgbox"
+                android:text="여행제목"
+                android:textColor="#081126"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="거리"
+                android:textSize="20sp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/area1textbox"
+                android:id="@+id/str_distance"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="#c5c5c5"
+                android:text="여행 소개글"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/area2textbox"
+                android:layout_below="@+id/area1textbox"
+                android:layout_toRightOf="@id/shopimgbox"
+
+                />
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/pimg"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/area2textbox"
+                android:src="@drawable/c2"
+
+                />
+            <TextView
+                android:id="@+id/pointtextbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/pimg"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="3.5"
+                android:layout_below="@+id/area2textbox"
+                android:textSize="25dp"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/plusimg"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/area2textbox"
+                android:src="@drawable/page2_031"
+                android:layout_toLeftOf="@+id/plustextbox"
+                android:layout_marginRight="10dp"
+
+                />
+            <TextView
+                android:id="@+id/plustextbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25"
+                android:visibility="gone"
+                android:layout_below="@+id/area2textbox"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:id="@+id/border20"
+                android:background="#F8CC07"
+                android:visibility="gone"
+                android:layout_below="@+id/pointtextbox"
+                />
+
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/btplus"
+                    android:visibility="gone"
+                    android:src="@drawable/page2_01_03"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/reviewbt"
+                    android:visibility="gone"
+                    android:src="@drawable/page2_01_05"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            android:background="#f2f2f2"
+            android:layout_gravity="center_horizontal"
+            />
+</LinearLayout>
+
+
+

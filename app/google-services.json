@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "927807784388",
+    "firebase_url": "https://database22-2a08e-default-rtdb.firebaseio.com",
+    "project_id": "database22-2a08e",
+    "storage_bucket": "database22-2a08e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927807784388:android:63fa8d82c07e5e7fba9091",
+        "android_client_info": {
+          "package_name": "co.kr.mychoice.tripmap20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927807784388-2rd20p57jb7nef3tsn4hipcu9e94m6os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSBZHjpnCzKsWUJWXeMZoTdpUKX0pp0KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927807784388-2rd20p57jb7nef3tsn4hipcu9e94m6os.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927807784388-jh07buks2reg4qcu8ppcog3bkl6eid66.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.kr.mychoice.tripmap20"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927807784388:android:a69140982b8cfa4cba9091",
+        "android_client_info": {
+          "package_name": "co.kr.mychoice.tripmap22"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927807784388-2rd20p57jb7nef3tsn4hipcu9e94m6os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSBZHjpnCzKsWUJWXeMZoTdpUKX0pp0KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927807784388-2rd20p57jb7nef3tsn4hipcu9e94m6os.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927807784388-jh07buks2reg4qcu8ppcog3bkl6eid66.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.kr.mychoice.tripmap20"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927807784388:android:3f2388d2a7e1e362ba9091",
+        "android_client_info": {
+          "package_name": "net.tripreview.tripmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927807784388-2rd20p57jb7nef3tsn4hipcu9e94m6os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSBZHjpnCzKsWUJWXeMZoTdpUKX0pp0KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927807784388-2rd20p57jb7nef3tsn4hipcu9e94m6os.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927807784388-jh07buks2reg4qcu8ppcog3bkl6eid66.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.kr.mychoice.tripmap20"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

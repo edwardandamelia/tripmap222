@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bt"
+        android:title="Follow" />
+    <item
+        android:id="@+id/bt2"
+        android:title="Block User" />
+
+    <item
+        android:id="@+id/bt3"
+        android:title="Report" />
+</menu>

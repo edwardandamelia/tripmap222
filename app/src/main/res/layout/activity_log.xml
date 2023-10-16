@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".log.LogActivity">
+
+
+    <ImageView
+        android:id="@+id/log"
+        android:layout_width="180dp"
+        android:layout_height="77dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo2" />
+
+    <RelativeLayout
+        android:id="@+id/contsly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/log"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/loginbt"
+            android:layout_width="330dp"
+            android:layout_height="58dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/logbt" />
+
+        <ImageView
+            android:id="@+id/loginbt2"
+            android:layout_width="330dp"
+            android:layout_height="58dp"
+            android:layout_below="@+id/loginbt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/logbt2" />
+
+        <ImageView
+            android:id="@+id/fb_btn"
+            android:layout_width="330dp"
+            android:layout_height="58dp"
+            android:layout_below="@+id/loginbt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logbt20"
+            />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginbt20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:visibility="gone"
+            />
+
+
+        <ImageView
+            android:id="@+id/regbt"
+            android:layout_width="307dp"
+            android:layout_height="58dp"
+            android:layout_below="@+id/fb_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/regbt"
+            android:visibility="gone"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/regbt"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="By signing up , you agree to the tripreview"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/mbt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="terms &amp; conditions"
+                        android:textColor="#2DA9CA"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" and "
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/mbt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="privacy policy"
+                        android:textColor="#2DA9CA"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
